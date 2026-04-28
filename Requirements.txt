@@ -1,0 +1,16 @@
+Boda
+-JWT
+-API Testing
+
+Mahmoud
+-Data Base
+-Caching
+
+Loay
+-Logging & Monitoring Dashboard
+
+Malh Hamada
+-Front End (Bonus)
+
+Malk Wahid
+-Docker (Bonus)
