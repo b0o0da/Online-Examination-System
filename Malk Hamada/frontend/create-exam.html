@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Exam - Online Exam System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <h2>Online Exam System</h2>
+
+    <div>
+      <a href="exams.html">Back to Exams</a>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Create New Exam</h1>
+
+    <form id="createExamForm">
+      <input type="text" id="title" placeholder="Exam Title" required>
+      <textarea id="description" placeholder="Exam Description"></textarea>
+      <input type="number" id="duration" placeholder="Duration in minutes" required>
+      <button type="submit">Create Exam</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/exams.js"></script>
+</body>
+</html>

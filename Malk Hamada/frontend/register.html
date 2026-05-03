@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register - Online Exam System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <p class="title">Create Account</p>
+
+    <form class="form" id="registerForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+
+      <div class="input-group">
+        <label for="role">Role</label>
+        <select id="role" required>
+          <option value="student">Student</option>
+          <option value="admin">Admin</option>
+        </select>
+      </div>
+
+      <button type="submit" class="sign">Sign up</button>
+    </form>
+
+    <div class="social-message">
+      <div class="line"></div>
+      <p class="message">Online Examination System</p>
+      <div class="line"></div>
+    </div>
+
+    <p class="signup">
+      Already have an account?
+      <a href="login.html">Sign in</a>
+    </p>
+
+    <p id="message"></p>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
